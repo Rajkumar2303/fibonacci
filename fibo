@@ -1,0 +1,17 @@
+n=int(input('no of terms:'))
+a=0
+b=1
+c=1
+d=0
+print(a)
+print(b)
+while b<=n:
+    
+    b=b+1
+    d=a
+    a=a+c
+    c=d   
+    print(a)
+
+    
+    
