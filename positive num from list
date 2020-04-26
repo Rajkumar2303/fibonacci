@@ -1,0 +1,16 @@
+list1=[11,-2,3,34,-15]
+list2=[12,14,-95,3]
+print('positive numbers in list1')
+for num in list1:
+    if int(num)>0:
+        print(int(num))
+    else:
+        continue;
+print('positive numbers in list2')
+
+for num in list2:
+    if int(num)>0:
+        print(int(num))
+    else:
+        continue;
+    
