@@ -1,0 +1,11 @@
+list=[9,3,2,4]
+list.append(1)
+print(list)
+
+tuple=(4,5,2,7,8)
+a=tuple[1]
+print(a)
+
+dict ={"apple":100,"orange":50}
+del dict["orange"]
+print(dict)
